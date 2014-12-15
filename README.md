@@ -30,15 +30,24 @@ Usage
 Route::scan("users","UserController");
 ```
 
+```shell
 controller function getAdd();
+```
 
+```shell
 route name: users.add
+```
 
 or
 
 ```php
 Route::scan("users","UserController","admin");
 ```
-controller function getAdd();
 
+```shell
+controller function getAdd();
+```
+
+```shell
 route name: admin.users.add
+```
