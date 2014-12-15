@@ -31,7 +31,7 @@ Route::scan("users","UserController");
 ```
 
 ```shell
-controller function getAdd();
+example controller -> function getAdd();
 ```
 
 ```shell
@@ -45,7 +45,7 @@ Route::scan("users","UserController","admin");
 ```
 
 ```shell
-controller function getAdd();
+example controller -> function getAdd();
 ```
 
 ```shell
