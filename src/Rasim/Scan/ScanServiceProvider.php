@@ -4,7 +4,7 @@ namespace Rasim\Scan;
 
 use Illuminate\Support\ServiceProvider;
 
-class TaraServiceProvider extends ServiceProvider {
+class ScanServiceProvider extends ServiceProvider {
 
 	/**
 	 * Indicates if loading of the provider is deferred.
