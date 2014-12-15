@@ -1,6 +1,6 @@
 <?php 
 
-namespace Rasim\Tara;
+namespace Rasim\Scan;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -20,7 +20,7 @@ class TaraServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('rasim/tara');
+		$this->package('rasim/scan');
 	}
 
 	/**
