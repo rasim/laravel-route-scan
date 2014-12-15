@@ -38,7 +38,7 @@ controller function getAdd();
 route name: users.add
 ```
 
-or
+Or with prefix usage:
 
 ```php
 Route::scan("users","UserController","admin");
