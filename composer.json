@@ -1,0 +1,23 @@
+{
+    "name": "rasim/scan",
+    "description": "Extension for Laravel 4 Route Scan",
+    "keywords": ["laravel","route","scan","name","auto"],
+    "authors": [
+        {
+            "name": "Rasim ÖZDİNÇ",
+            "email": "rasimozdinc@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-0": {
+            "Rasim\\Scan\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
